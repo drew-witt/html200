@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>L04A01Extra</title>
+    <script>
+    function multiply () {
+      var a,b,c;
+      a=Number(document.getElementById("first").value);
+      b=Number(document.getElementById("second").value);
+      c= a * b;
+      document.getElementById("answer").value= c;
+}
+    </script>
+  </head>
+  <body>
+        <h1>Enter two numbers to multiply!</h1>
+        <h2>Enter the first number: <input id="first"></h2>
+        <h2>Enter the second number: <input id="second"></h2>
+        <button onclick="multiply()">Multiply!</button>
+        <input id="answer">
+  </body>
+</html>
