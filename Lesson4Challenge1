@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>L04A01</title>
+  </head>
+  <body>
+        <h1>Enter a number to square!</h1>
+        <button onclick="numberDoubler()">Click Me!</button>
+        <script>
+        function numberDoubler () {
+          let input = prompt ('Enter a number to square');
+          let result = 0;
+
+          result = Number(input) * Number(input);
+
+          alert(result);
+        }
+        </script>
+  </body>
+</html>
